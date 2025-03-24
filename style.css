@@ -1,0 +1,86 @@
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+.box{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 130px;
+    background-color:  hsl(0, 0%, 12%);
+    max-width: 400px;
+    min-height: 650px;
+    border-radius: 15px;
+}
+img{
+   padding-top: 30px;
+    width: 100px;
+    height: 100px;
+   border-radius: 100%;
+}
+#name{
+    padding-top: 10px;
+    font-size: 2rem;
+    color: white;
+}
+#location{
+    padding-top: 3px;
+    font-size: 1rem;
+    color: hsl(75, 94%, 57%);
+}
+#jobTitle{
+    padding-top: 25px;
+    color: rgba(145, 145, 145, 0.822);
+    padding-bottom: 15px;
+}
+.container{
+    display: grid;
+   
+    color: hsl(0, 0%, 20%);
+    align-items: center;
+    justify-content: center;
+    grid-row: 5;
+    row-gap: 25px;
+    
+    
+}
+.link{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    height: 30px;
+    width: 300px;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    
+}
+.link:hover{
+    background-color: hsl(0, 0%, 25%);
+    cursor: pointer;
+   
+
+}
+.link:active{
+    background-color: hsl(0, 0%, 30%);
+
+}
+@media (max-width:320px) {
+    .link{
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 20%);
+        height: 30px;
+        width: 250px;
+        color: aliceblue;
+    }
+}
+    
